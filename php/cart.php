@@ -1,6 +1,6 @@
 <?php
 /**
- * LALIBELA GEBEYA E-Commerce System
+ * DEBRE TABOR GEBEYA E-Commerce System
  * Shopping Cart Management Module
  */
 

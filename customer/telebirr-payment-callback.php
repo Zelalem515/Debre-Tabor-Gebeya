@@ -1,6 +1,6 @@
 <?php
 /**
- * LALIBELA GEBEYA E-Commerce System
+ * DEBRE TABOR GEBEYA E-Commerce System
  * Telebirr Payment Callback Handler
  * 
  * This page receives payment confirmation from Telebirr

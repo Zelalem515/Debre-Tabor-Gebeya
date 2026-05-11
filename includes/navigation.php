@@ -78,7 +78,7 @@ $current_language = get_language();
         
         // Try multiple paths to find the correct API endpoint
         const paths = [
-            '/lalibela-gebeya/api/set-language.php',
+            '/debre-tabor-gebeya/api/set-language.php',
             '../api/set-language.php',
             '../../api/set-language.php',
             '/api/set-language.php'

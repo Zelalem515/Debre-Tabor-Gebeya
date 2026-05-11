@@ -1,6 +1,6 @@
 <?php
 /**
- * LALIBELA GEBEYA E-Commerce System
+ * DEBRE TABOR GEBEYA E-Commerce System
  * Payment Processing Module
  */
 
@@ -194,7 +194,7 @@ class Payment {
                 'amount' => $order['total_amount'],
                 'currency' => 'ETB',
                 'order_id' => $order['id'],
-                'description' => 'LALIBELA GEBEYA Order #' . $order['id'],
+                'description' => 'DEBRE TABOR GEBEYA Order #' . $order['id'],
                 'callback_url' => 'https://' . $_SERVER['HTTP_HOST'] . '/customer/payment-result.php'
             ];
             

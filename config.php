@@ -1,6 +1,6 @@
 <?php
 /**
- * LALIBELA GEBEYA E-Commerce System
+ * DEBRE TABOR GEBEYA E-Commerce System
  * Configuration File
  * 
  * This file contains database connection settings and system configuration
@@ -10,17 +10,17 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'lalibela_gebeya');
+define('DB_NAME', 'debre_tabor_gebeya');
 
 // System Configuration
 define('SITE_NAME', 'DEBRETABOR GEBEYA');
-define('SITE_URL', 'http://localhost/lalibela-gebeya/');
+define('SITE_URL', 'http://localhost/debre-tabor-gebeya/');
 define('CURRENCY', 'ETB');
 define('CURRENCY_SYMBOL', 'Br');
 
 // Session Configuration
 define('SESSION_TIMEOUT', 1800); // 30 minutes in seconds
-define('SESSION_NAME', 'lalibela_session');
+define('SESSION_NAME', 'debre_tabor_session');
 
 // File Upload Configuration
 define('UPLOAD_DIR', __DIR__ . '/images/uploads/');

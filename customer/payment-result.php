@@ -1,6 +1,6 @@
 <?php
 /**
- * LALIBELA GEBEYA E-Commerce System
+ * DEBRE TABOR GEBEYA E-Commerce System
  * Payment Result Page
  * 
  * This page shows the payment result after Telebirr redirects back

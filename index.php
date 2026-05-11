@@ -1,6 +1,6 @@
 <?php
 /**
- * LALIBELA GEBEYA E-Commerce System
+ * DEBRE TABOR GEBEYA E-Commerce System
  * Main Entry Point
  */
 
@@ -416,7 +416,7 @@ if ($is_logged_in) {
             
             // Try multiple paths to find the correct API endpoint
             const paths = [
-                '/lalibela-gebeya/api/set-language.php',
+                '/debre-tabor-gebeya/api/set-language.php',
                 'api/set-language.php',
                 '../api/set-language.php'
             ];

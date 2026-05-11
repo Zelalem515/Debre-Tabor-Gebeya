@@ -1,4 +1,4 @@
-# Lalibela Gebeya - E-Commerce Platform
+# Debre Tabor Gebeya - E-Commerce Platform
 
 A full-featured e-commerce platform built with PHP and MySQL, featuring multi-user support (customers, sellers, admins), real-time messaging, payment processing, and inventory management.
 
@@ -36,8 +36,8 @@ A full-featured e-commerce platform built with PHP and MySQL, featuring multi-us
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/lalibela-gebeya.git
-   cd lalibela-gebeya
+   git clone https://github.com/YOUR_USERNAME/debre-tabor-gebeya.git
+   cd debre-tabor-gebeya
    ```
 
 2. **Configure database connection**

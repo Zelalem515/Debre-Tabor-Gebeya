@@ -1,5 +1,5 @@
 /**
- * LALIBELA GEBEYA - Messaging System (Inline Chat - Like Jiji.et)
+ * DEBRE TABOR GEBEYA - Messaging System (Inline Chat - Like Jiji.et)
  * Handles chat functionality on product detail page
  */
 
@@ -18,9 +18,9 @@ function getApiPath(endpoint) {
   // Get the base URL from the current location
   const protocol = window.location.protocol; // http: or https:
   const host = window.location.host; // localhost:8080 or example.com
-  const pathname = window.location.pathname; // /lalibela-gebeya/test-messaging-full.php
+  const pathname = window.location.pathname; // /debre-tabor-gebeya/test-messaging-full.php
   
-  // Extract the base path (e.g., /lalibela-gebeya/)
+  // Extract the base path (e.g., /debre-tabor-gebeya/)
   const pathParts = pathname.split('/').filter(p => p);
   let basePath = '';
   

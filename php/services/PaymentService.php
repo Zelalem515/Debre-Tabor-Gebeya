@@ -77,7 +77,7 @@ class PaymentService {
                     'metadata' => [
                         'order_id' => $orderId,
                         'timestamp' => time(),
-                        'app' => 'lalibela-gebeya'
+                        'app' => 'debre-tabor-gebeya'
                     ],
                     'description' => "Order #{$orderId} - DEBRETABOR GEBEYA"
                 ],

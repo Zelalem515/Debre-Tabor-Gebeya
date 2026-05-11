@@ -1,6 +1,6 @@
 <?php
 /**
- * LALIBELA GEBEYA E-Commerce System
+ * DEBRE TABOR GEBEYA E-Commerce System
  * Telebirr Payment Gateway Integration
  * 
  * This page redirects customers to Telebirr for payment confirmation
@@ -84,7 +84,7 @@ $return_url = 'https://' . $_SERVER['HTTP_HOST'] . '/customer/payment-result.php
 
 $payload = [
     'outTradeNo' => 'ORDER-' . $order_id . '-' . time(),
-    'subject' => 'LALIBELA GEBEYA Order #' . $order_id,
+    'subject' => 'DEBRE TABOR GEBEYA Order #' . $order_id,
     'description' => 'Payment for order #' . $order_id,
     'totalAmount' => (int)($order['total_amount'] * 100), // Convert to cents
     'currency' => 'ETB',

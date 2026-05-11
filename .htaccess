@@ -1,10 +1,10 @@
-# LALIBELA GEBEYA E-Commerce System
+# DEBRE TABOR GEBEYA E-Commerce System
 # Apache Configuration
 
 # Enable mod_rewrite
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /lalibela-gebeya/
+    RewriteBase /debre-tabor-gebeya/
     
     # Prevent direct access to sensitive files
     RewriteRule ^config\.php$ - [F]
