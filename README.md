@@ -181,11 +181,23 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ## Support
 
-For issues and questions, please open an issue on GitHub.
+For issues, questions, or help with the project, please contact:
+
+**Developer**: Zelalem Birhan Geta  
+**Institution**: Debre Tabor University (DTU) - IT Student  
+**Contact**: [Telegram](https://t.me/zedo1940)
+
+Feel free to reach out for:
+- Bug reports and issues
+- Feature requests
+- Implementation help
+- General inquiries
 
 ## Authors
 
-- Development Team
+- **Zelalem Birhan Geta** - Lead Developer & Maintainer
+  - DTU IT Student
+  - Contact: https://t.me/zedo1940
 
 ---
 
