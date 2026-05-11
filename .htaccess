@@ -1,0 +1,27 @@
+# LALIBELA GEBEYA E-Commerce System
+# Apache Configuration
+
+# Enable mod_rewrite
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /lalibela-gebeya/
+    
+    # Prevent direct access to sensitive files
+    RewriteRule ^config\.php$ - [F]
+    RewriteRule ^php/ - [F]
+    RewriteRule ^database/ - [F]
+    RewriteRule ^logs/ - [F]
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Disable directory listing
+Options -Indexes
+
+# Set default character encoding
+AddDefaultCharset UTF-8

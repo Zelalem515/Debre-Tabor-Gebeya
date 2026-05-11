@@ -1,0 +1,43 @@
+# Sensitive configuration files
+config/stripe.php
+config/email.php
+php/telebirr-token.php
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# Backup and temporary files
+*-backup.php
+*-old.php
+*-working.php
+*-fixed.php
+*.tmp
+*.bak
+
+# Node modules (if using any frontend build tools)
+node_modules/
+package-lock.json
+
+# Composer
+vendor/
+composer.lock
+
+# Database files
+*.sql.bak
+*.db
+*.sqlite
