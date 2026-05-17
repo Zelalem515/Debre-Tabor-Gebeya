@@ -90,9 +90,9 @@ The repository is modularly organized to separate functional logic, assets, and 
 ├── css/                # Custom, responsive application design layouts
 ├── js/                 # Pure JavaScript handling dynamic updates and client interactions
 └── includes/           # Reusable user interface components (Global Headers, Footers, Navbars)
-
-🔒 Security Architectures Implemented
-This project was developed with a defensive programming mindset, enforcing data sanitation and system protection rules at every entry point:
+```
+## 🔒 Security Architectures Implemented
+```This project was developed with a defensive programming mindset, enforcing data sanitation and system protection rules at every entry point:
 
 Defeating SQL Injection: Absolute reliance on PDO (PHP Data Objects) and Prepared Statements across all database interactions. Raw parameters are never directly concatenated into queries.
 
@@ -101,6 +101,7 @@ Cryptographic Passwords: Passwords are never saved in plain text. Secure storage
 State & Session Integrity: Active protection against session hijacking and fixation attacks, leveraging strictly managed native PHP session workflows.
 
 Cross-Site Scripting (XSS) Mitigation: Complete validation, filtering, and strict sanitization routines executed on all incoming global arrays ($_POST, $_GET) prior to browser rendering.
+```
 👨‍💻 Developer & Project Context
 Lead Developer: Zelalem Birhan Geta
 
@@ -108,7 +109,7 @@ Institutional Background: Debre Tabor University (DTU) — Gafat Institute of Te
 
 Professional Target: Specialized in Full-Stack Engineering (MERN / Native PHP & JS Systems)
 
-Direct Contact / Feedback: Connect with me via Telegram: @zedo1940
+Direct Contact / Feedback: ```Connect with me via Telegram: @zedo1940```
 
 📄 License
 This software ecosystem is open-source and distributed under the MIT License. Feel free to explore, tweak, and expand the code base.
