@@ -1,6 +1,5 @@
 /**
- * LALIBELA GEBEYA E-Commerce System
- * Localization JavaScript
+ 
  */
 
 // Get current language from session/localStorage
