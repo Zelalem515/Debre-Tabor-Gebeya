@@ -1,6 +1,5 @@
 /**
- * LALIBELA GEBEYA E-Commerce System
- * Client-Side Validation JavaScript
+
  */
 
 // Validate email format
