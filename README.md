@@ -63,7 +63,10 @@ If you are evaluating this project, here are the technical highlights that demon
 ---
 
 ## 📸 Screenshots
-*(Coming soon! Once the final polish is done, I will upload screenshots of the Customer, Seller, and Admin dashboards here to showcase the UI.)*
+*<img width="1883" height="947" alt="image" src="https://github.com/user-attachments/assets/ea3f2cf1-155d-4bce-bb40-0f015ea2ca0b" />
+*
+*<img width="1897" height="925" alt="image" src="https://github.com/user-attachments/assets/32f22d35-5a22-4440-97dd-3b2973d16cf8" />
+*
 
 ---
 
