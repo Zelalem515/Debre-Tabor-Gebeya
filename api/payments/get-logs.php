@@ -1,39 +1,6 @@
 <?php
 /**
- * Get Payment Logs API Endpoint
- * 
- * Retrieves payment transaction logs and audit trail
- * 
- * Endpoint: GET /api/payments/get-logs.php
- * 
- * Query Parameters:
- * - order_id: Filter by order ID
- * - transaction_id: Filter by transaction ID
- * - status: Filter by payment status (pending, succeeded, failed)
- * - limit: Number of records to return (default: 50)
- * - offset: Pagination offset (default: 0)
- * 
- * Response:
- * {
- *   "success": true,
- *   "logs": [
- *     {
- *       "id": 1,
- *       "order_id": 123,
- *       "transaction_id": "pi_xxx",
- *       "amount": 100.00,
- *       "status": "succeeded",
- *       "payment_method": "card",
- *       "created_at": "2024-01-15 10:30:00",
- *       "updated_at": "2024-01-15 10:30:05"
- *     }
- *   ],
- *   "total": 150,
- *   "limit": 50,
- *   "offset": 0
- * }
- * 
- * Validates: Requirements 1.5, 4.5, 4.6
+ 
  */
 
 require_once __DIR__ . '/../../config.php';
