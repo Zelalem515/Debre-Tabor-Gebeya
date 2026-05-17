@@ -1,39 +1,7 @@
 <?php
 /**
  * Get Inventory Audit Trail API Endpoint
- * 
- * Retrieves inventory change history and audit trail
- * 
- * Endpoint: GET /api/inventory/get-audit-trail.php
- * 
- * Query Parameters:
- * - product_id: Filter by product ID (required)
- * - limit: Number of records to return (default: 100)
- * - offset: Pagination offset (default: 0)
- * 
- * Response:
- * {
- *   "success": true,
- *   "product_id": 123,
- *   "logs": [
- *     {
- *       "id": 1,
- *       "product_id": 123,
- *       "quantity_change": -10,
- *       "previous_stock": 100,
- *       "new_stock": 90,
- *       "reason": "order_reservation",
- *       "user_id": 5,
- *       "order_id": 456,
- *       "created_at": "2024-01-15 10:30:00"
- *     }
- *   ],
- *   "total": 150,
- *   "limit": 100,
- *   "offset": 0
- * }
- * 
- * Validates: Requirements 5.5
+ 
  */
 
 require_once __DIR__ . '/../../config.php';
