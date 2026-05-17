@@ -1,13 +1,6 @@
 <?php
 /**
- * API Endpoint: Get Notifications
- * 
- * GET /api/notifications/get
- * 
- * Parameters:
- * - page (int, optional) - Page number (default: 1)
- * - limit (int, optional) - Items per page (default: 20)
- * - unread_only (bool, optional) - Get only unread (default: false)
+ 
  */
 
 session_start();
