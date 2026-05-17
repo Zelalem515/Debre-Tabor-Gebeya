@@ -177,7 +177,7 @@ php tests/test_cart_properties.php
 
 ## License
 
-This project is licensed under the MIT License - see LICENSE file for details.
+This project is licensed under the MIT License.
 
 ## Support
 
