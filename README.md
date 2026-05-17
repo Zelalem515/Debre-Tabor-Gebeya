@@ -64,11 +64,11 @@ If you are evaluating this project, here are the technical highlights that demon
 
 ## 📸 Screenshots
 *<img width="1883" height="947" alt="image" src="https://github.com/user-attachments/assets/ea3f2cf1-155d-4bce-bb40-0f015ea2ca0b" />
-*
+*Customer Dashboard 
 *<img width="1897" height="925" alt="image" src="https://github.com/user-attachments/assets/32f22d35-5a22-4440-97dd-3b2973d16cf8" />
-*
-
----
+*Admin Dashboard 
+<img width="1887" height="912" alt="image" src="https://github.com/user-attachments/assets/45f83edc-a2e6-4e7f-97e8-1aa9f49d9925" />
+Seller Dassboar  ---
 
 ## 🚀 Getting Started
 
