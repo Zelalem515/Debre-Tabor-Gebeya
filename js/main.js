@@ -1,6 +1,5 @@
 /**
- * LALIBELA GEBEYA E-Commerce System
- * Main JavaScript File
+
  */
 
 // Utility function to show notifications
