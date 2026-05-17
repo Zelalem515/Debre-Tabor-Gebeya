@@ -1,17 +1,6 @@
 <?php
 /**
- * API Endpoint: Send Message
- * 
- * POST /api/messages/send
- * 
- * Parameters:
- * - receiver_id (int) - Recipient user ID
- * - subject (string) - Message subject
- * - message (string) - Message content
- * - order_id (int, optional) - Related order
- * - product_id (int, optional) - Related product
- */
-
+*/
 session_start();
 require_once __DIR__ . '/../../config.php';
 require_once __DIR__ . '/../../php/auth.php';
